@@ -1,6 +1,6 @@
 baseURL: "http://ammarfarhan.github.io/"
 languageCode: "en-us"
-title: "Ammar - Data Analyst Portfolio Site"
+title: "Ammar - Data Analyst Portfolio"
 theme: "hugo-profile"
 
 outputs:
