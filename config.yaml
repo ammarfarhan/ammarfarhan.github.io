@@ -1,6 +1,6 @@
 baseURL: "http://ammarfarhan.github.io/"
 languageCode: "en-us"
-title: "Hugo Profile"
+title: "Ammar - Data Analyst Portfolio Site"
 theme: "hugo-profile"
 
 outputs:
@@ -25,15 +25,15 @@ markup:
 Menus:
   main:
     - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
+      name: Projects
+      title: Data Analytics Projects
+      url: /projects
       weight: 1
-    - identifier: gallery
-      name: Gallery
-      title: Blog posts
-      url: /gallery
-      weight: 2
+    # - identifier: gallery
+    #   name: Gallery
+    #   title: Blog posts
+    #   url: /gallery
+    #   weight: 2
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
@@ -41,8 +41,8 @@ Menus:
     #   weight: 3
     # - identifier: dropdown1
     #   title: example dropdown 1
-    #   name: example 1
-    #   url: /#
+    #   name: Portfolio
+    #   url: /portfolio
     #   parent: dropdown
     #   weight: 1
     # - identifier: dropdown2
@@ -53,10 +53,10 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Hugo Profile"
-  description: Text about my cool site
+  title: "AHANAKI"
+  description: Ammar - Data Analyst Portfolio
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png"
+  favicon: "/logo.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -101,9 +101,9 @@ params:
   # If you want to customize the menu, you can change it here
   navbar:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
-    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
     # showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: "Hugo Profile" # Brand name for the brand | default is the title variable
+    brandName: "AHANAKI" # Brand name for the brand | default is the title variable
     disableSearch: false
     # searchPlaceholder: "Search"
     menus:
@@ -118,179 +118,160 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Isabella."
-    subtitle: "I build things for the web"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
-    image: /images/hero.svg
+    title: "Ammar."
+    subtitle: "I extract valuable insights from data to make informed decisions."
+    # content: |-
+    #   As an enthusiastic data analyst with a strong drive to learn, I have a comprehensive grasp of the essential tools necessary for effective data analysis, 
+    #   including SQL, spreadsheets, Tableau, and Python. I am proficient in utilizing these tools in a creative way to extract valuable insights from complex data sets, 
+    #   empowering data-driven decision-making.
+    image: /images/photo-ammar.png
+    roundImage: true
     bottomImage:
       enable: true
-    # roundImage: true # Make hero image circular | default false
+      roundImage: true # Make hero image circular | default false
     button:
       enable: true
       name: "Resume"
-      url: "#"
-      download: true
-      newPage: false
+      url: "https://drive.google.com/file/d/1s_-hJMajFkwZ4tZYblUg_QcaNhFk2zuk/view?usp=sharing"
+      download: false
+      newPage: true
     socialLinks:
       fontAwesomeIcons:
-        - icon: fab fa-github
-          url: https://example.com
-        - icon: fab fa-twitter
-          url: https://example.com
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/ahanaki/
+        - icon: fab fa-instagram
+          url: https://www.instagram.com/ahanaki_/
       customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
+        - icon: /tableau-icon.svg
+          url: "https://public.tableau.com/app/profile/ahanaki"
 
   # About
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    image: "/images/photo-ammar.png"
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. 
-
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      As an enthusiastic data analyst with a strong drive to learn, I have a comprehensive grasp of the essential tools necessary for effective data analysis, 
+      including SQL, spreadsheets, Tableau, and Python. 
+      
+      I am proficient in utilizing these tools in a creative way to extract valuable insights from complex data sets, empowering data-driven decision-making.
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
       items:
-        - "HTML"
-        - "CSS"
-        - "JavaScript"
-        - "React"
-        - "Node"
-        - "Express"
+        - "Excel (Spreadsheet)"
+        - "SQL"
+        - "Python"
+        - "Tableau"
+        - "Google Data Studio (Looker Studio)"
 
   # Experience
   experience:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Senior Software Developer"
-        company: "Facebook"
-        companyUrl: "https://example.com"
-        date: "Jan 2022 - present"
+      - job: "Data Entry Operator"
+        company: "SD NEGERI BARENG 3"
+        companyUrl: "https://www.facebook.com/sdnbareng3malang/"
+        date: "Feb 2020 - Dec 2021"
         featuredLink:
-          enable: true
+          enable: false
           name: "View the project"
           url: "https://example.com"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
-
-      - job: "Software Developer"
-        company: "Amazon"
-        companyUrl: "https://example.com"
-        date: "Sep 2020 - Dec 2021"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
         info:
           enable: true
-          content: I worked as a software developer for more than one year in Amazon.
+          content: I worked as a data entry operator for more than one year in SD NEGERI BARENG 3 MALANG.
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          SD NEGERI BARENG 3 is a public elementary school in Malang, Indonesia.
+          - Managed -+ 500 students, 30 employees & lots of school data in the National Education Database, DAPODIK.
+          - Cleaned 98% of the school data in the database, such as incomplete & incorrect student data.
+          - Scanned documents and saved them in the database to keep records of essential organizational information.
+          - Verified data files prior to entry to maintain high data accuracy.
+          - Completed data entry tasks with accuracy and efficiency.
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "Junior Software Developer"
-        company: "Apple"
-        companyUrl: "https://example.com"
-        date: "Jan 2020 - Aug 2020"
-        info:
+      - job: "Frontend Web Developer"
+        company: "EzyIndustries"
+        companyUrl: "https://ezyindustries.id/"
+        date: "Nov 2017 - Nov 2018"
+        featuredLink:
           enable: false
-        featuredLink:
-          enable: true
+          name: "View the project"
           url: "https://example.com"
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "UI/UX Designer"
-        company: "Netflix"
-        companyUrl: "https://example.com"
-        date: "June 2017 - Nov 2019"
-        featuredLink:
+        info:
           enable: true
-          url: "https://example.com"
+          content: I worked as a frontend web developer for around one year in EzyIndustries.
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          EzyIndustries is an Information Technology & Business startup company in Malang, Indonesia.
+          - Prioritized and problem-solved several tasks concurrently with minimum supervision.
+          - Worked closely with developers on creating new code.
+          - Adapted quickly to a constantly changing, deadline-driven environment.
+          - Collaborated with in-house web designers to create sleek and innovative UI designs.
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "Product Designer"
-        company: "Google"
-        companyUrl: "https://example.com"
-        date: "Feb 2016 - Mar 2017"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
-
+      
   # Education
   education:
     enable: true
     # title: "Custom Name"
-    index: false
+    index: true
     items:
-      - title: "Master of Business Administration"
+      - title: "Data Analytics"
         school:
-          name: "University of California, Berkeley"
-          url: "https://example.org"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
+          name: "RevoU"
+          url: "https://revou.co/"
+        date: "Jan 2023 - Apr 2023"
+        GPA: "63/63 (100%)"
         content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Science in Computer Science"
-        school:
-          name: "Massachusetts Institute of Technology"
-          url: "https://example.org"
-        date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
-        content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
+          Intensive data analytics program with <10% admission rate and weekly learning commitment of 15 to 20 hours, learning the fundamentals of data analytics, understanding business problems, statistics, data exploration, SQL, Python, data visualization, and data communication.
+          - One of the top students in the class (58 students).
+          - **Winner of the Python Competition** - conducted a customer segmentation and provided suitable thematic campaigns for each segment. Also conducted a benefit-cost analysis considering the allocated budget and specific target segments.
+      # - title: "Bachelor of Science in Computer Science"
+      #   school:
+      #     name: "Massachusetts Institute of Technology"
+      #     url: "https://example.org"
+      #   date: "2009 - 2013"
+      #   GPA: "3.9 out of 5.0"
+      #   content: |-
+      #     I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
+      #     - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
+      #     - Face mask detection using a single convolutional neural network.
 
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-        featuredLink:
-          enable: true
-          name: "My academic record"
-          url: "https://example.com"
-      - title: "High School"
+      #     Extracurricular Activities
+      #       - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      #       - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+      #   featuredLink:
+      #     enable: true
+      #     name: "My academic record"
+      #     url: "https://example.com"
+      - title: "High School - Software Engineering Major"
         school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
+          name: "SMK Negeri 4 Malang"
+          url: "https://smkn4malang.sch.id/"
+        date: "Jul 2016 - Jun 2019"
+        GPA: "88/100"
+        content: |-
+          Participated in several IT competitions on behalf of the school from regional to international level.
         featuredLink:
-          enable: true
+          enable: false
           url: "https://example.com"
 
   # Achievements
   achievements:
     enable: true
-    # title: "Custom Name"
+    title: "Certifications"
     items:
-      - title: Google kickstart runner
-        content: I solved all problems with optimal solution.
-        url: https://example.com
-      - title: Facebook Hackathon Winner
-        content: Developed a product using Artificial Intelligence.
-      - title: Hugo Profile
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/gurusabarish/hugo-profile"
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
+      - title: SQL (Advanced)
+        content: Issued by HackerRank in May 2023.
+        url: https://www.hackerrank.com/certificates/a8bdc6596d59
+      - title: Machine Learning Basic
+        content: Issued by Baparekraf Digital Talent & Dicoding in Nov 2022.
+        url: https://drive.google.com/file/d/1I2adMirCHthS_zJAQ2Zec0eYZTII0yKe/view
+      - title: Google Data Analytics Specialization
+        content: Issued by Coursera in Oct 2022.
+        url: "https://www.coursera.org/account/accomplishments/specialization/certificate/NS9VYYVV2QDL"
 
   # projects
   projects:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - title: Hugo Profile
@@ -343,7 +324,7 @@ params:
     enable: true
     # title: "Custom Name"
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    email: gurusabarisha@gmail.com
+    email: afarhan.job@gmail.com
     btnName: Mail me
     # formspree:
     #   enable: true # `contact.email` value will be ignored
@@ -353,17 +334,17 @@ params:
 
   footer:
     recentPosts:
-      path: "blogs"
+      path: "projects"
       count: 3
       title: Recent Posts
       enable: true
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      # github: https://github.com
+      linkedin: https://linkedin.com/in/ahanaki
+      # twitter: https://twitter.com
+      instagram: https://instagram.com/ahanaki_
+      # facebook: https://facebook.com
 
   # List pages like blogs and posts
   listPages:
