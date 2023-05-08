@@ -74,7 +74,7 @@ Home dashboard is opened by default, and can be accessed by clicking the Home ic
             <br> <img src='/images/samba-commerce/tooltip-1.png' alt='Samba Commerce map tooltip 1'>
         - The second is for showing total revenue visualized with circle. Bigger circle means bigger revenue. The details are shown in the tooltip.
             <br> <img src='/images/samba-commerce/tooltip-2.png' alt='Samba Commerce map tooltip 2'>
-    - Can also switch the map to show the data for each zip code by switching the map from 'Default' to 'Zip Code' in the menu on top-right of the chart.
+    - Can also switch the map to show the data for each zip code by switching the map from Default to Zip Code in the menu on top-right of the chart.
         <br> <img src='/images/samba-commerce/chart-5.png' alt='Samba Commerce chart 5'>
         - The details are shown in the tooltip.
             <br> <img src='/images/samba-commerce/tooltip-3.png' alt='Samba Commerce map tooltip 3'>
