@@ -53,10 +53,10 @@ Menus:
     #   weight: 2
 
 params:
-  title: "AHANAKI"
+  title: "ahanaki"
   description: Ammar - Data Analyst Portfolio
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/logo.png"
+  favicon: "/images/logo.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -101,9 +101,9 @@ params:
   # If you want to customize the menu, you can change it here
   navbar:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
-    brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    brandLogo: "/images/logo.png" # Logo for the brand | default is the favicon variable
     # showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: "AHANAKI" # Brand name for the brand | default is the title variable
+    brandName: "ahanaki" # Brand name for the brand | default is the title variable
     disableSearch: false
     # searchPlaceholder: "Search"
     menus:
@@ -119,7 +119,7 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Ammar."
-    subtitle: "I extract valuable insights from data to make informed decisions."
+    subtitle: "I extract valuable insights from data to help you make informed decisions."
     # content: |-
     #   As an enthusiastic data analyst with a strong drive to learn, I have a comprehensive grasp of the essential tools necessary for effective data analysis, 
     #   including SQL, spreadsheets, Tableau, and Python. I am proficient in utilizing these tools in a creative way to extract valuable insights from complex data sets, 
@@ -142,7 +142,7 @@ params:
         - icon: fab fa-instagram
           url: https://www.instagram.com/ahanaki_/
       customIcons:
-        - icon: /tableau-icon.svg
+        - icon: /images/tableau-icon.svg
           url: "https://public.tableau.com/app/profile/ahanaki"
 
   # About
