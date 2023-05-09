@@ -102,7 +102,7 @@ The dashboard can be accessed by clicking the Group icon in the navigation on th
 
 ## Slide Deck Example
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRw9mZhHXVAVCsYEu6tzJk3N8saiDWN4usFugJT3WbZUm5jhBtTiYg1xWTSsLyyKeznvRRuQV9JW4FK/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRw9mZhHXVAVCsYEu6tzJk3N8saiDWN4usFugJT3WbZUm5jhBtTiYg1xWTSsLyyKeznvRRuQV9JW4FK/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="400" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 Thank you for taking the time to visit my portfolio website and view my projects!
 
