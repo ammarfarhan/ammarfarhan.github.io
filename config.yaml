@@ -12,7 +12,7 @@ outputs:
     - "HTML"
     - "RSS"
 
-Paginate: 3
+Paginate: 6
 enableRobotsTXT: true
 # disqusShortname: your-disqus-shortname
 # googleAnalytics: G-MEASUREMENT_ID
@@ -132,7 +132,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "https://drive.google.com/file/d/1s_-hJMajFkwZ4tZYblUg_QcaNhFk2zuk/view?usp=sharing"
+      url: "https://drive.google.com/file/d/1i3pMHJynME0nnuBNueR08M87OltFruzA/view?usp=sharing"
       download: false
       newPage: true
     socialLinks:
@@ -262,6 +262,9 @@ params:
       - title: SQL (Advanced)
         content: Issued by HackerRank in May 2023.
         url: https://www.hackerrank.com/certificates/a8bdc6596d59
+      - title: Full Stack Data Analytics
+        content: Issued by RevoU in April 2023.
+        url: https://certificates.revou.co/ammar-farhan-nur-hakim-certificate-completion-fsda21.pdf
       - title: Machine Learning Basic
         content: Issued by Baparekraf Digital Talent & Dicoding in Nov 2022.
         url: https://drive.google.com/file/d/1I2adMirCHthS_zJAQ2Zec0eYZTII0yKe/view
