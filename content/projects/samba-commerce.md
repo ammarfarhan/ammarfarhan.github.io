@@ -18,7 +18,10 @@ I created a dashboard for Samba Commerce, a dummy e-commerce company in Brazil.
 
 Samba Commerce Dashboard is a comprehensive dashboard that serves as a company-wide tool for **tracking and analyzing the business performance** of Samba Commerce, including **customer RFM segmentation**.
 
-The dashboard was **created using Tableau**.
+### Project Details
+| Tools    |
+| -------- |
+| Tableau  |
 
 ## Business Background
 

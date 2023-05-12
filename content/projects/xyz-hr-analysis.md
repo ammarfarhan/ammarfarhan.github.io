@@ -7,7 +7,6 @@ tags:
     - COMING SOON
     - Analysis
     - HR
-    - Understanding Business Problems
 image: /images/coming-soon.png
 description: ""
 toc:
@@ -18,6 +17,11 @@ toc:
 I conducted an HR analysis on XYZ Company to reduce attrition rates by extracting valuable insights. 
 
 The analysis included identifying stakeholders using the DARCI model, developing an issue tree to uncover the root cause, forming hypotheses for each potential cause, and making recommendations on relevant metrics.
+
+### Project Details
+| Tools    |
+| -------- |
+| - |
 
 ## Slide Deck
 

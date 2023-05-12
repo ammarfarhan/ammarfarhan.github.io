@@ -19,6 +19,11 @@ I analyzed the GoFood customer journey by developing an app journey and event tr
 
 This involved mapping out the customer's journey and tracking key events to gain insights into their experience with the GoFood app, from initial use to completing a transaction.
 
+### Project Details
+| Tools    |
+| -------- |
+| Google Sheets |
+
 ## Google Sheets
 
 [>> Link to the google sheets <<][sheets]
