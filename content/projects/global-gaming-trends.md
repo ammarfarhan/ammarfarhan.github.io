@@ -7,6 +7,7 @@ tags:
     - COMING SOON
     - Analysis
     - Data Visualization
+    - EDA
     - Python
     - Tableau
 image: /images/coming-soon.png

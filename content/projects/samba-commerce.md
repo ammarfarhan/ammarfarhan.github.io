@@ -6,6 +6,7 @@ author: "Ammar Farhan Nur Hakim"
 tags:
     - Customer Segmentation
     - Data Visualization
+    - EDA
     - Tableau
 image: /images/samba-commerce/dashboard-1.png
 description: ""
@@ -19,9 +20,9 @@ I created a dashboard for Samba Commerce, a dummy e-commerce company in Brazil.
 Samba Commerce Dashboard is a comprehensive dashboard that serves as a company-wide tool for **tracking and analyzing the business performance** of Samba Commerce, including **customer RFM segmentation**.
 
 ### Project Details
-| Tools    |
-| -------- |
-| Tableau  |
+| Type       | Tools    |
+| ---------- | -------- |
+| Assignment | Tableau  |
 
 ## Business Background
 

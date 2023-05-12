@@ -7,6 +7,7 @@ tags:
     - COMING SOON
     - Analysis
     - Customer Segmentation
+    - EDA
     - Python
 image: /images/coming-soon.png
 description: ""
