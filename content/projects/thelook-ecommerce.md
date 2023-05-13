@@ -9,7 +9,7 @@ tags:
     - EDA
     - Looker Studio
     - SQL
-image: /images/thelook-ecommerce/main.png
+image: /images/thelook-ecommerce/main.jpg
 description: ""
 toc:
 ---
@@ -23,15 +23,15 @@ The analysis involved **calculating the monthly growth of inventory** by product
 ### Project Details
 | Type       | Tools    |
 | ---------- | -------- |
-| Improved Assignment | Google BigQuery |
-|  | Google Sheets  |
-|  | Looker Studio  |
+| Personal Project | Google BigQuery |
+| (derived from RevoU Assignment) | Google Sheets  |
+|                     | Tableau |
 
 ## Business Background
 
 You are a data analyst in a fashion e-commerce company called theLook. Currently, the company is in the optimization mode caused by the potential crisis in 2023. The management has decided to cut off resources in some categories the lowest growth in the past 1 year. On another side, they want to continue the analysis by understanding their inventory stock growth and the retention behaviors of the users.
 
-## Business Questions
+## Objectives
 1. Find categories with the lowest business growth.
 2. Calculate monthly growth of inventory in percentage breakdown by product categories.
 3. Create monthly user retention cohorts.
@@ -39,24 +39,27 @@ You are a data analyst in a fashion e-commerce company called theLook. Currently
 Data used will be data from 2022.
 
 ## Dataset Overview
-theLook is a fictitious eCommerce clothing site developed by the Looker team. The dataset contains information about customers, products, orders, logistics, web events and digital marketing campaigns. The contents of this dataset are synthetic, and are provided to industry practitioners for the purpose of product discovery, testing, and evaluation.
+theLook is a fictitious eCommerce clothing site developed by the Looker team. 
 
-This public dataset is hosted in Google BigQuery and is included in BigQuery's 1TB/mo of free tier processing. This means that each user receives 1TB of free BigQuery processing every month, which can be used to run queries on this public dataset.
+The dataset contains information about customers, products, orders, logistics, web events and digital marketing campaigns. 
+
+The contents of this dataset are synthetic, and are provided to industry practitioners for the purpose of product discovery, testing, and evaluation.
+
+This dataset is public and hosted in Google BigQuery.
 
 [>> Link to Dataset <<][thelook]
 
 ## Categories with lowest business growth
 
 #### Table Schema
-<img src='/images/thelook-ecommerce/schema-1.png' alt='theLook eCommerce Table Schema 1'>
+<img src='/images/thelook-ecommerce/schema-1.jpg' alt='theLook eCommerce Table Schema 1'>
 
 #### SQL Syntax
 ```sql
 WITH main AS(
   SELECT COUNT(oi.id) AS products_sold,
         ii.product_category AS category,
-        EXTRACT(MONTH FROM o.created_at) AS month,
-        EXTRACT(YEAR FROM o.created_at) AS year,
+        DATE(DATE_TRUNC(o.created_at, MONTH)) AS year_month,
         SUM(oi.sale_price) AS revenue,
         SUM(oi.sale_price) - SUM(ii.cost) AS profit
   FROM `bigquery-public-data.thelook_ecommerce.orders` AS o
@@ -66,15 +69,15 @@ WITH main AS(
   ON oi.inventory_item_id = ii.id
   WHERE EXTRACT(YEAR FROM o.created_at) IN (2021, 2022)
     AND o.status = 'Complete'
-  GROUP BY category, month, year
-  ORDER BY category, year, month
+  GROUP BY category, year_month
+  ORDER BY category, year_month
 ),
 
 cte_revenue AS(
   SELECT *
   FROM(
     SELECT * EXCEPT(profit),
-          LAG(revenue) OVER(PARTITION BY category ORDER BY year, month) AS previous_revenue
+          LAG(revenue) OVER(PARTITION BY category ORDER BY year_month) AS previous_revenue
     FROM main
   )
 ),
@@ -83,14 +86,13 @@ cte_profit AS(
   SELECT *
   FROM(
     SELECT * EXCEPT(revenue),
-          LAG(profit) OVER(PARTITION BY category ORDER BY year, month) AS previous_profit
+          LAG(profit) OVER(PARTITION BY category ORDER BY year_month) AS previous_profit
     FROM main
   )
 )
 
 SELECT main.category,
-       main.month,
-       main.year,
+       main.year_month,
        main.products_sold,
        rev.revenue,
        rev.previous_revenue,
@@ -100,38 +102,37 @@ SELECT main.category,
        (pro.profit - pro.previous_profit)  /pro.previous_profit AS profit_growth
 FROM main
 JOIN cte_revenue AS rev
-ON main.category = rev.category AND main.year = rev.year AND main.month = rev.month
+ON main.category = rev.category AND main.year_month = rev.year_month
 JOIN cte_profit AS pro
-ON main.category = pro.category AND main.year = pro.year AND main.month = pro.month
-WHERE rev.year IN (2022)
-ORDER BY category, year, month
+ON main.category = pro.category AND main.year_month = pro.year_month
+WHERE EXTRACT(YEAR FROM main.year_month) IN (2022)
+ORDER BY category, year_month
 ```
 
 ## Monthly Growth of Inventory
 
 #### Table Schema
-<img src='/images/thelook-ecommerce/schema-2.png' alt='theLook eCommerce Table Schema 2'>
+<img src='/images/thelook-ecommerce/schema-2.jpg' alt='theLook eCommerce Table Schema 2'>
 
 #### SQL Syntax
 ```sql
 WITH main AS(
   SELECT product_category AS category,
-         EXTRACT(MONTH FROM ii.created_at) AS month,
-         EXTRACT(YEAR FROM ii.created_at) AS year,
+         DATE(DATE_TRUNC(ii.created_at, MONTH)) AS year_month,
          count(ii.id) AS stock
   FROM `bigquery-public-data.thelook_ecommerce.inventory_items` AS ii
   LEFT JOIN `bigquery-public-data.thelook_ecommerce.order_items` AS oi
   ON ii.id = oi.inventory_item_id
   WHERE EXTRACT(YEAR FROM ii.created_at) IN (2021, 2022)
     AND ii.sold_at IS NULL
-  GROUP BY category, month, year
+  GROUP BY category, year_month
 ),
 
 cte_inventory AS(
   SELECT *
     FROM(
       SELECT *,
-            LAG(stock) OVER(PARTITION BY category ORDER BY year, month) AS previous_stock
+            LAG(stock) OVER(PARTITION BY category ORDER BY year_month) AS previous_stock
       FROM main
     )
 )
@@ -139,14 +140,14 @@ cte_inventory AS(
 SELECT *,
         (stock - previous_stock) / previous_stock AS inventory_growth
 FROM cte_inventory
-WHERE year IN (2022)
-ORDER BY category, year, month
+WHERE EXTRACT(YEAR FROM year_month) IN (2022)
+ORDER BY category, year_month
 ```
 
 ## Monthly User Retention Cohorts
 
 #### Table Schema
-<img src='/images/thelook-ecommerce/schema-3.png' alt='theLook eCommerce Table Schema 3'>
+<img src='/images/thelook-ecommerce/schema-3.jpg' alt='theLook eCommerce Table Schema 3'>
 
 #### SQL Syntax
 ```sql

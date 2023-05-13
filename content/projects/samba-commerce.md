@@ -8,7 +8,7 @@ tags:
     - Data Visualization
     - EDA
     - Tableau
-image: /images/samba-commerce/dashboard-1.png
+image: /images/samba-commerce/main.jpeg
 description: ""
 toc:
 ---
@@ -22,7 +22,7 @@ Samba Commerce Dashboard is a comprehensive dashboard that serves as a company-w
 ### Project Details
 | Type       | Tools    |
 | ---------- | -------- |
-| Assignment | Tableau  |
+| RevoU Assignment | Tableau  |
 
 ## Business Background
 

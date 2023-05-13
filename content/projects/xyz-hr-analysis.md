@@ -4,10 +4,8 @@ date: 2023-01-20
 draft: false
 author: "Ammar Farhan Nur Hakim"
 tags:
-    - COMING SOON
     - Analysis
-    - HR
-image: /images/coming-soon.png
+image: /images/xyz-hr-analysis/main.jpg
 description: ""
 toc:
 ---
@@ -19,9 +17,9 @@ I conducted an HR analysis on XYZ Company to reduce attrition rates by extractin
 The analysis included identifying stakeholders using the DARCI model, developing an issue tree to uncover the root cause, forming hypotheses for each potential cause, and making recommendations on relevant metrics.
 
 ### Project Details
-| Tools    |
-| -------- |
-| - |
+| Type       | Tools    |
+| ---------- | -------- |
+| RevoU Assignment | -  |
 
 ## Slide Deck
 
