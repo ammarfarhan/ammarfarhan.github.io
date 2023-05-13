@@ -8,7 +8,7 @@ tags:
     - Data Visualization
     - EDA
     - Tableau
-image: /images/samba-commerce/main.jpeg
+image: /images/samba-commerce/main.jpg
 description: ""
 toc:
 ---
