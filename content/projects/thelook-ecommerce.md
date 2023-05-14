@@ -4,11 +4,10 @@ date: 2023-05-10
 draft: false
 author: "Ammar Farhan Nur Hakim"
 tags:
-    - COMING SOON
     - Data Visualization
     - EDA
-    - Looker Studio
     - SQL
+    - Tableau
 image: /images/thelook-ecommerce/main.jpg
 description: ""
 toc:
@@ -27,16 +26,6 @@ The analysis involved **calculating the monthly growth of inventory** by product
 | (derived from RevoU Assignment) | Google Sheets  |
 |                     | Tableau |
 
-## Business Background
-
-You are a data analyst in a fashion e-commerce company called theLook. Currently, the company is in the optimization mode caused by the potential crisis in 2023. The management has decided to cut off resources in some categories the lowest growth in the past 1 year. On another side, they want to continue the analysis by understanding their inventory stock growth and the retention behaviors of the users.
-
-## Objectives
-1. Find categories with the lowest business growth.
-2. Calculate monthly growth of inventory in percentage breakdown by product categories.
-3. Create monthly user retention cohorts.
-
-Data used will be data from 2022.
 
 ## Dataset Overview
 theLook is a fictitious eCommerce clothing site developed by the Looker team. 
@@ -49,9 +38,19 @@ This dataset is public and hosted in Google BigQuery.
 
 [>> Link to Dataset <<][thelook]
 
-## Categories with lowest business growth
+## Business Background
 
-#### Table Schema
+You are a data analyst in a fashion e-commerce company called theLook. Currently, the company is in the optimization mode caused by the potential crisis in 2023. The management has decided to cut off resources in some categories the lowest growth in the past 1 year. On another side, they want to continue the analysis by understanding their inventory stock growth and the retention behaviors of the users.
+
+## Objectives
+1. Find categories with the lowest business growth.
+2. Calculate monthly growth of inventory in percentage breakdown by product categories.
+3. Create monthly user retention cohorts.
+
+Data used will be data from 2022.
+
+### 1. Categories with lowest business growth
+
 <img src='/images/thelook-ecommerce/schema-1.jpg' alt='theLook eCommerce Table Schema 1'>
 
 #### SQL Syntax
@@ -109,9 +108,23 @@ WHERE EXTRACT(YEAR FROM main.year_month) IN (2022)
 ORDER BY category, year_month
 ```
 
-## Monthly Growth of Inventory
+#### Visualization
+Link the query to Google Sheets and create a visualization using Tableau.
 
-#### Table Schema
+[>> Try this dashboard <<][dashboard]
+
+<img src='/images/thelook-ecommerce/bcg-matrix.jpg' alt='theLook eCommerce Dashboard'>
+
+There are 3 visualizations within this dashboard:
+
+1. BCG Matrix:
+    - Profit CMGR : profit in latest month / profit in first month <sup>1 / [latest month - first month]</sup> - 1
+    - Market Share : revenue product / total revenue
+2. Profit / revenue growth time-series chart.
+3. Categories breakdown by its revenue, profit, and number of products sold.
+
+### 2. Monthly Growth of Inventory
+
 <img src='/images/thelook-ecommerce/schema-2.jpg' alt='theLook eCommerce Table Schema 2'>
 
 #### SQL Syntax
@@ -144,9 +157,13 @@ WHERE EXTRACT(YEAR FROM year_month) IN (2022)
 ORDER BY category, year_month
 ```
 
-## Monthly User Retention Cohorts
+#### Visualization
+Link the query to Google Sheets and create a Pivot Table.
 
-#### Table Schema
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQHUAvIvg5O8mXhBXj3xF8tFpSrCbHBcQqHCE_nbwidZly_Ikrw87F13VbCqIbH-W-k3U3_wrcM9Jqd/pubhtml?gid=1518340926&amp;single=true&amp;widget=true&amp;headers=false" frameborder="0" width="100%" height="600" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+### 3. Monthly User Retention Cohorts
+
 <img src='/images/thelook-ecommerce/schema-3.jpg' alt='theLook eCommerce Table Schema 3'>
 
 #### SQL Syntax
@@ -206,8 +223,25 @@ ON retention.purchase_month = size.purchase_month
 ORDER BY purchase_month, month_number
 ```
 
-## Slide Deck
+#### Visualization
+Link the query to Google Sheets and create a Pivot Table.
+
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQHUAvIvg5O8mXhBXj3xF8tFpSrCbHBcQqHCE_nbwidZly_Ikrw87F13VbCqIbH-W-k3U3_wrcM9Jqd/pubhtml?gid=594779104&amp;single=true&amp;widget=true&amp;headers=false" frameborder="0" width="100%" height="400" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+## Slide Deck (with insights)
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTKB5jVXYgu-1Zx3hBP7P4B9aP--KOTtlZMrPqKd593IhCybqdjBm3g19BCjaMYRgHWUQL-_M2NKCdT/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="400" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
+Thank you for taking the time to visit my portfolio website and view my projects!
+
+I appreciate your interest and support. If you have any feedback or questions, please don't hesitate to reach out to me. Once again, thank you for your time and consideration.
+
+[>> Let's connect on LinkedIn! <<][linkedin]
+
+[>> Visit my Tableau Public profile to see my other dashboards <<][tableau]
+
+
+[linkedin]: https://www.linkedin.com/in/ahanaki/
+[tableau]: https://public.tableau.com/app/profile/ahanaki
 [thelook]:https://console.cloud.google.com/marketplace/product/bigquery-public-data/thelook-ecommerce
+[dashboard]:https://public.tableau.com/views/theLookeCommerce-ProductsBCGMatrix2022/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link
