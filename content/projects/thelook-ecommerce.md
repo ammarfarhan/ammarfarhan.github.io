@@ -22,9 +22,9 @@ The analysis involved **calculating the monthly growth of inventory** by product
 ### Project Details
 | Type       | Tools    |
 | ---------- | -------- |
-| Personal Project | Google BigQuery |
-| (derived from RevoU Assignment) | Google Sheets  |
-|                     | Tableau |
+| RevoU Assignment | Google BigQuery |
+|                  | Google Sheets  |
+|                  | Tableau |
 
 
 ## Dataset Overview
