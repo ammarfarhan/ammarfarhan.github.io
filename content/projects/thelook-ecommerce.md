@@ -1,6 +1,6 @@
 ---
 title: "EDA with SQL: theLook eCommerce 2022"
-date: 2023-05-10
+date: 2023-05-13
 draft: false
 author: "Ammar Farhan Nur Hakim"
 tags:
