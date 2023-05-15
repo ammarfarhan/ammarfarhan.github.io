@@ -118,4 +118,4 @@ I appreciate your interest and support. If you have any feedback or questions, p
 
 [linkedin]: https://www.linkedin.com/in/ahanaki/
 [tableau]: https://public.tableau.com/app/profile/ahanaki
-[dashboard]: https://public.tableau.com/views/SambaCommerce_16799043425600/DashboardHome?:language=en-US&:display_count=n&:origin=viz_share_link
+[dashboard]: https://public.tableau.com/app/profile/ahanaki/viz/SambaCommerce_16799043425600/DashboardHome

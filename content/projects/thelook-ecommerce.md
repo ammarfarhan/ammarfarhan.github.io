@@ -244,4 +244,4 @@ I appreciate your interest and support. If you have any feedback or questions, p
 [linkedin]: https://www.linkedin.com/in/ahanaki/
 [tableau]: https://public.tableau.com/app/profile/ahanaki
 [thelook]:https://console.cloud.google.com/marketplace/product/bigquery-public-data/thelook-ecommerce
-[dashboard]:https://public.tableau.com/views/theLookeCommerce-ProductsBCGMatrix2022/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link
+[dashboard]:https://public.tableau.com/app/profile/ahanaki/viz/theLookeCommerce-ProductsBCGMatrix2022/Dashboard1
