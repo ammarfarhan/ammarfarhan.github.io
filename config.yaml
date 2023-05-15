@@ -224,24 +224,10 @@ params:
           Intensive data analytics program with <10% admission rate and weekly learning commitment of 15 to 20 hours, learning the fundamentals of data analytics, understanding business problems, statistics, data exploration, SQL, Python, data visualization, and data communication.
           - One of the top students in the class (58 students).
           - **Winner of the Python Competition** - conducted a customer segmentation and provided suitable thematic campaigns for each segment. Also conducted a benefit-cost analysis considering the allocated budget and specific target segments.
-      # - title: "Bachelor of Science in Computer Science"
-      #   school:
-      #     name: "Massachusetts Institute of Technology"
-      #     url: "https://example.org"
-      #   date: "2009 - 2013"
-      #   GPA: "3.9 out of 5.0"
-      #   content: |-
-      #     I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-      #     - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-      #     - Face mask detection using a single convolutional neural network.
-
-      #     Extracurricular Activities
-      #       - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-      #       - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      #   featuredLink:
-      #     enable: true
-      #     name: "My academic record"
-      #     url: "https://example.com"
+        featuredLink:
+          enable: true
+          name: "Certificate"
+          url: "https://certificates.revou.co/ammar-farhan-nur-hakim-certificate-completion-fsda21.pdf"
       - title: "High School - Software Engineering Major"
         school:
           name: "SMK Negeri 4 Malang"
