@@ -53,7 +53,7 @@ There are 2 menus for this dashboard :
 1. Home
 2. Customer RFM Segmentation
 
-[>> Try this dashboard <<][dashboard]
+<a href="https://public.tableau.com/app/profile/ahanaki/viz/SambaCommerce_16799043425600/DashboardHome" target="_blank">>> Try this dashboard <<</a>
 
 ### Home
 Home dashboard is opened by default, and can be accessed by clicking the Home icon in the navigation on the left side.
@@ -111,11 +111,6 @@ Thank you for taking the time to visit my portfolio website and view my projects
 
 I appreciate your interest and support. If you have any feedback or questions, please don't hesitate to reach out to me. Once again, thank you for your time and consideration.
 
-[>> Let's connect on LinkedIn! <<][linkedin]
+<a href="https://www.linkedin.com/in/ahanaki/" target="_blank">>> Let's connect on LinkedIn! <<</a>
 
-[>> Visit my Tableau Public profile to see my other dashboards <<][tableau]
-
-
-[linkedin]: https://www.linkedin.com/in/ahanaki/
-[tableau]: https://public.tableau.com/app/profile/ahanaki
-[dashboard]: https://public.tableau.com/app/profile/ahanaki/viz/SambaCommerce_16799043425600/DashboardHome
+<a href="https://public.tableau.com/app/profile/ahanaki" target="_blank">>> Visit my Tableau Public profile to see my other dashboards <<</a>

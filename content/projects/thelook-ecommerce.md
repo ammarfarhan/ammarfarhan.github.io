@@ -36,7 +36,7 @@ The contents of this dataset are synthetic, and are provided to industry practit
 
 This dataset is public and hosted in Google BigQuery.
 
-[>> Link to Dataset <<][thelook]
+<a href="https://console.cloud.google.com/marketplace/product/bigquery-public-data/thelook-ecommerce" target="_blank">>> Link to Dataset <<</a>
 
 ## Business Background
 
@@ -111,7 +111,7 @@ ORDER BY category, year_month
 #### Visualization
 Link the query to Google Sheets and create a visualization using Tableau.
 
-[>> Try this dashboard <<][dashboard]
+<a href="https://public.tableau.com/app/profile/ahanaki/viz/theLookeCommerce-ProductsBCGMatrix2022/Dashboard1" target="_blank">>> Try this dashboard <<</a>
 
 <img src='/images/thelook-ecommerce/bcg-matrix.jpg' alt='theLook eCommerce Dashboard'>
 
@@ -236,12 +236,6 @@ Thank you for taking the time to visit my portfolio website and view my projects
 
 I appreciate your interest and support. If you have any feedback or questions, please don't hesitate to reach out to me. Once again, thank you for your time and consideration.
 
-[>> Let's connect on LinkedIn! <<][linkedin]
+<a href="https://www.linkedin.com/in/ahanaki/" target="_blank">>> Let's connect on LinkedIn! <<</a>
 
-[>> Visit my Tableau Public profile to see my other dashboards <<][tableau]
-
-
-[linkedin]: https://www.linkedin.com/in/ahanaki/
-[tableau]: https://public.tableau.com/app/profile/ahanaki
-[thelook]:https://console.cloud.google.com/marketplace/product/bigquery-public-data/thelook-ecommerce
-[dashboard]:https://public.tableau.com/app/profile/ahanaki/viz/theLookeCommerce-ProductsBCGMatrix2022/Dashboard1
+<a href="https://public.tableau.com/app/profile/ahanaki" target="_blank">>> Visit my Tableau Public profile to see my other dashboards <<</a>
