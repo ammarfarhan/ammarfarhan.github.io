@@ -124,7 +124,7 @@ params:
     #   As an enthusiastic data analyst with a strong drive to learn, I have a comprehensive grasp of the essential tools necessary for effective data analysis, 
     #   including SQL, spreadsheets, Tableau, and Python. I am proficient in utilizing these tools in a creative way to extract valuable insights from complex data sets, 
     #   empowering data-driven decision-making.
-    image: /images/photo-ammar.png
+    image: /images/me-square.jpg
     roundImage: true
     bottomImage:
       enable: true
@@ -149,7 +149,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/photo-ammar.png"
+    image: "/images/me-square.jpg"
     content: |-
       As an enthusiastic data analyst with a strong drive to learn, I have a comprehensive grasp of the essential tools necessary for effective data analysis, 
       including SQL, spreadsheets, Tableau, and Python. 
