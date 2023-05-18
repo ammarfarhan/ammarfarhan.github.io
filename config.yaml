@@ -23,12 +23,12 @@ markup:
       unsafe: true
 
 Menus:
-  main:
-    - identifier: projects
-      name: Projects
-      title: Data Analytics Projects
-      url: /projects
-      weight: 1
+  # main:
+    # - identifier: projects
+    #   name: Projects
+    #   title: Data Analytics Projects
+    #   url: /projects
+    #   weight: 1
     # - identifier: gallery
     #   name: Gallery
     #   title: Blog posts
@@ -43,7 +43,7 @@ Menus:
     #   title: example dropdown 1
     #   name: Portfolio
     #   url: /portfolio
-    #   parent: dropdown
+    #   parent: Projects
     #   weight: 1
     # - identifier: dropdown2
     #   title: example dropdown 2
@@ -260,7 +260,9 @@ params:
 
   # projects
   projects:
-    enable: false
+    enable: true
+    btnName: Redirect to projects page
+    url: /projects
     # title: "Custom Name"
     # items:
     #   - title: Hugo Profile
@@ -315,11 +317,11 @@ params:
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
     email: afarhan.job@gmail.com
     btnName: Mail me
-    # formspree:
-    #   enable: true # `contact.email` value will be ignored
-    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
-    #   emailCaption: "Enter your email address"
-    #   messageCaption: "Enter your message here"
+    formspree:
+      enable: true # `contact.email` value will be ignored
+      formId: xeqwddzy # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
+      emailCaption: "Enter your email address"
+      messageCaption: "Enter your message here"
 
   footer:
     recentPosts:
