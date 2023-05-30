@@ -4,13 +4,13 @@ date: 2023-04-11
 draft: false
 author: "Ammar Farhan Nur Hakim"
 tags:
-    - PPT ONLY
+    - DELIVERABLES ONLY
     - Analysis
     - Data Visualization
     - EDA
     - Python
     - Tableau
-image: /images/coming-soon.png
+image: /images/global-gaming-trends/main.jpg
 description: ""
 toc:
 ---

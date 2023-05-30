@@ -4,6 +4,7 @@ date: 2023-01-20
 draft: false
 author: "Ammar Farhan Nur Hakim"
 tags:
+    - DELIVERABLES ONLY
     - Analysis
     - Customer Journey
     - Event Tracking

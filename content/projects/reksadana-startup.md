@@ -4,12 +4,12 @@ date: 2023-03-10
 draft: false
 author: "Ammar Farhan Nur Hakim"
 tags:
-    - PPT ONLY
+    - DELIVERABLES ONLY
     - Analysis
     - Customer Segmentation
     - EDA
     - Python
-image: /images/coming-soon.png
+image: /images/reksadana-startup/main.jpg
 description: ""
 toc:
 ---
