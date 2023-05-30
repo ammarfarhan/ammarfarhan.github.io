@@ -17,7 +17,7 @@ toc:
 
 I created a dashboard for **PT. KIMIA FARMA, TBK**, a pharmaceutical company in Indonesia.
 
-The dashboard is used for monitoring the sales of one of the medicine brand, Salicyl. The data used is preprocessed in Google BigQuery.
+The dashboard is used for monitoring the sales of one of its medicine brand, Salicyl. The data used is preprocessed inside Google BigQuery.
 
 ### Project Details
 | Type       | Tools    |
