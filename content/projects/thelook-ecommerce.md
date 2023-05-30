@@ -111,7 +111,7 @@ ORDER BY category, year_month
 #### Visualization
 Link the query to Google Sheets and create a visualization using Tableau.
 
-<a href="https://public.tableau.com/app/profile/ahanaki/viz/theLookeCommerce-ProductsBCGMatrix2022/Dashboard1" target="_blank">>> Try this dashboard <<</a>
+<a href="https://public.tableau.com/app/profile/ahanaki/viz/theLookeCommerce-ProductsBCGMatrix2022/Dashboard1" target="_blank">>> Link to the dashboard <<</a>
 
 <img src='/images/thelook-ecommerce/bcg-matrix.jpg' alt='theLook eCommerce Dashboard'>
 
