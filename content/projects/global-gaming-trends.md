@@ -4,7 +4,6 @@ date: 2023-04-11
 draft: false
 author: "Ammar Farhan Nur Hakim"
 tags:
-    - DELIVERABLES ONLY
     - Analysis
     - Data Visualization
     - EDA

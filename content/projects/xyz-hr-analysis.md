@@ -4,7 +4,6 @@ date: 2023-01-20
 draft: false
 author: "Ammar Farhan Nur Hakim"
 tags:
-    - DELIVERABLES ONLY
     - Analysis
 image: /images/xyz-hr-analysis/main.jpg
 description: ""

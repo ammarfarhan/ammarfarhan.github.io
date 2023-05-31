@@ -4,6 +4,7 @@ date: 2023-03-31
 draft: false
 author: "Ammar Farhan Nur Hakim"
 tags:
+    - Blog
     - Customer Segmentation
     - Data Visualization
     - EDA

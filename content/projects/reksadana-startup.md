@@ -4,7 +4,6 @@ date: 2023-03-10
 draft: false
 author: "Ammar Farhan Nur Hakim"
 tags:
-    - DELIVERABLES ONLY
     - Analysis
     - Customer Segmentation
     - EDA

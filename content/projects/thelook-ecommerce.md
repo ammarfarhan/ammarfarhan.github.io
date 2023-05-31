@@ -4,6 +4,7 @@ date: 2023-05-13
 draft: false
 author: "Ammar Farhan Nur Hakim"
 tags:
+    - Blog
     - Data Visualization
     - EDA
     - SQL
