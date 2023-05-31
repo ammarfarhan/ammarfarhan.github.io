@@ -113,6 +113,13 @@ params:
       disableProjects: false
       disableAchievements: false
       disableContact: false
+    titles:
+      about: "About"
+      experience: "Experience"
+      education: "Education"
+      projects: "Projects"
+      achievements: "Certifications"
+      contact: "Contact"
 
   # Hero
   hero:
@@ -169,22 +176,41 @@ params:
         - "Tableau"
         - "Google Data Studio (Looker Studio)"
 
+  # Experience as Data Analyst
+  experienceData:
+    enable: true
+    title: "Experience as Data Analyst"
+    items:
+      - job: "Big Data Analytics (Project Based Virtual Intern)"
+        company: "PT. KIMIA FARMA, TBK"
+        companyUrl: "https://www.kimiafarma.co.id/"
+        date: "May 2023 - Jun 2023"
+        featuredLink:
+          enable: true
+          name: "View the project"
+          url: /projects/salicyl-sales-dashboard
+        certificate:
+          enable: true
+          name: "Certificate"
+          url: "https://drive.google.com/file/d/1VVtjfi5I2x7yDdYwKXOJhFrBEySg8Gox/view"
+        info:
+          enable: true
+          content: 1 month
+        content: |
+          Project Based Virtual Intern by Kimia Farma x Rakamin Academy.
+
   # Experience
   experience:
     enable: true
-    # title: "Custom Name"
+    title: "Previous Work Experience"
     items:
       - job: "Data Entry Operator"
         company: "SD NEGERI BARENG 3"
         companyUrl: "https://www.facebook.com/sdnbareng3malang/"
         date: "Feb 2020 - Dec 2021"
-        featuredLink:
-          enable: false
-          name: "View the project"
-          url: "https://example.com"
         info:
           enable: true
-          content: I worked as a data entry operator for more than one year in SD NEGERI BARENG 3 MALANG.
+          content: 1 year 11 months
         content: |
           SD NEGERI BARENG 3 is a public elementary school in Malang, Indonesia.
           - Managed -+ 500 students, 30 employees & lots of school data in the National Education Database, DAPODIK.
@@ -197,13 +223,9 @@ params:
         company: "EzyIndustries"
         companyUrl: "https://ezyindustries.id/"
         date: "Nov 2017 - Nov 2018"
-        featuredLink:
-          enable: false
-          name: "View the project"
-          url: "https://example.com"
         info:
           enable: true
-          content: I worked as a frontend web developer for around one year in EzyIndustries.
+          content: 1 year 1 month
         content: |
           EzyIndustries is an Information Technology & Business startup company in Malang, Indonesia.
           - Prioritized and problem-solved several tasks concurrently with minimum supervision.
