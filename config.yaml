@@ -162,13 +162,15 @@ params:
     title: "About Me"
     image: "/images/me-square.jpg"
     content: |-
-      As an enthusiastic data analyst with a strong drive to learn, I have a comprehensive grasp of the essential tools necessary for effective data analysis, 
-      including SQL, spreadsheets, Tableau, and Python. 
+      I'm an aspiring data analyst with a strong drive to learn and a passion for using data to drive business decisions. 
       
-      I am proficient in utilizing these tools in a creative way to extract valuable insights from complex data sets, empowering data-driven decision-making.
+      I recently completed an intensive data analytics program by RevoU, where I gained a solid foundation in statistical analysis, data visualization in Google Data Studio (Looker Studio) and Tableau, and programming languages such as Python and SQL.
+      
+      Currently seeking a new opportunity, I am eager to utilize my skills and expertise to drive data-driven decision-making and unlock the full potential of data for your organization. 
+
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with recently:"
+      title: "Here are a few technologies I've been working a lot with:"
       items:
         - "Excel (Spreadsheet)"
         - "SQL"
