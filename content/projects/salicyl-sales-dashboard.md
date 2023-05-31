@@ -22,8 +22,8 @@ The dashboard is used for monitoring the sales of one of its medicine brand, Sal
 ### Project Details
 | Type       | Tools    |
 | ---------- | -------- |
-| Virtual Internship | Google BigQuery |
-|  | Looker Studio  |
+| Virtual Internship | Google BigQuery (SQL)|
+|  | Looker Studio (Google Data Studio)  |
 
 ## Dashboard
 

@@ -23,7 +23,7 @@ The objective was to extract insights from the data and identify suitable themat
 ### Project Details
 | Type       | Tools    |
 | ---------- | -------- |
-| RevoU Assignment | Google Colab |
+| RevoU Assignment | Google Colab (Python) |
 
 ## Slide Deck
 
