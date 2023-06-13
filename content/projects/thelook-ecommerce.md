@@ -233,6 +233,8 @@ Link the query to Google Sheets and create a Pivot Table.
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTKB5jVXYgu-1Zx3hBP7P4B9aP--KOTtlZMrPqKd593IhCybqdjBm3g19BCjaMYRgHWUQL-_M2NKCdT/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="400" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
+---
+
 Thank you for taking the time to visit my portfolio website and view my projects!
 
 I appreciate your interest and support. If you have any feedback or questions, please don't hesitate to reach out to me. Once again, thank you for your time and consideration.

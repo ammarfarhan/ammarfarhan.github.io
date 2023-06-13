@@ -29,6 +29,8 @@ The dashboard is used for monitoring the sales of one of its medicine brand, Sal
 
 <a href="https://lookerstudio.google.com/reporting/c0d4ce6a-1430-4a97-b48e-acc12e5fca04" target="_blank">>> Link to the dashboard <<</a>
 
+---
+
 Thank you for taking the time to visit my portfolio website and view my projects!
 
 I appreciate your interest and support. If you have any feedback or questions, please don't hesitate to reach out to me. Once again, thank you for your time and consideration.

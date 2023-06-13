@@ -32,6 +32,8 @@ As part of a collaborative effort, I participated in a project aimed at providin
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTieBR8CJUdQltrzy2Y37F7-BPckC-90IHF0EVrsnoO2fMhitCGJs5I2c6Xaquxyk_FbttxTDLmee5W/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="400" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
+---
+
 Thank you for taking the time to visit my portfolio website and view my projects!
 
 I appreciate your interest and support. If you have any feedback or questions, please don't hesitate to reach out to me. Once again, thank you for your time and consideration.

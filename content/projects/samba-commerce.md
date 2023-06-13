@@ -108,6 +108,8 @@ The dashboard can be accessed by clicking the Group icon in the navigation on th
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRw9mZhHXVAVCsYEu6tzJk3N8saiDWN4usFugJT3WbZUm5jhBtTiYg1xWTSsLyyKeznvRRuQV9JW4FK/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="400" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
+---
+
 Thank you for taking the time to visit my portfolio website and view my projects!
 
 I appreciate your interest and support. If you have any feedback or questions, please don't hesitate to reach out to me. Once again, thank you for your time and consideration.
