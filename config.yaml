@@ -1,6 +1,6 @@
 baseURL: "http://ammarfarhan.github.io/"
 languageCode: "en-us"
-title: "Ammar Farhan"
+title: "Ammar Farhan - Data Analyst"
 theme: "hugo-profile"
 
 outputs:
@@ -119,7 +119,7 @@ params:
       education: "Education"
       projects: "Projects"
       achievements: "Certifications"
-      contact: "Contact"
+      contact: "Contact me"
 
   # Hero
   hero:
