@@ -180,7 +180,7 @@ params:
 
   # Experience as Data Analyst
   experienceData:
-    enable: true
+    enable: false
     title: "Experience as Data Analyst"
     items:
       - job: "Big Data Analytics (Project Based Virtual Intern)"
@@ -203,7 +203,7 @@ params:
 
   # Experience
   experience:
-    enable: true
+    enable: false
     title: "Previous Work Experience"
     items:
       - job: "Data Entry Operator"
@@ -238,7 +238,7 @@ params:
       
   # Education
   education:
-    enable: true
+    enable: false
     # title: "Custom Name"
     index: true
     items:
